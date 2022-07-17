@@ -16,7 +16,7 @@
                 <DatePicker label="Fecha de salida" />
                 <DatePicker label="Fecha de retorno" />
             </v-row>
-            <v-btn color="primary" elevation="4" large>Buscar</v-btn>
+            <v-btn color="primary" elevation="4" large :to="{ name: 'Results' }">Buscar</v-btn>
         </v-container>
     </v-form>
 </template>

@@ -4,6 +4,7 @@
       <div>
         <v-btn text :to="{ name: 'Home' }" exact>Home</v-btn>
         <v-btn text :to="{ name: 'Search' }" exact>Search</v-btn>
+        <v-btn text :to="{ name: 'Results' }" exact>Results</v-btn>
       </div>
 
       <router-view />
