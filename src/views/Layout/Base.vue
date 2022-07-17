@@ -3,7 +3,7 @@
     <v-main>
       <div>
         <v-btn text :to="{ name: 'Home' }" exact>Home</v-btn>
-        <v-btn text :to="{ name: 'About' }" exact>About</v-btn>
+        <v-btn text :to="{ name: 'Search' }" exact>Search</v-btn>
       </div>
 
       <router-view />
