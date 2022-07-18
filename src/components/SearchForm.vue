@@ -29,14 +29,9 @@ export default {
         firstname: "",
         lastname: "",
         nameRules: [
-            v => !!v || "Name is required",
-            v => v.length <= 50 || "Name must be less than 50 characters",
-        ],
-        email: "",
-        emailRules: [
-            v => !!v || "E-mail is required",
-            v => /.+@.+/.test(v) || "E-mail must be valid",
-        ],
+            v => !!v || "Ciudad es requerida",
+            v => v.length <= 50 || "El nombre de ciudad debe ser menos de 50 caracteres",
+        ]
     }),
     components: { DatePicker }
 }
