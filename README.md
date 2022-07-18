@@ -6,7 +6,7 @@ abrir una consola y ejecutar el siguiente comando ```docker run -p puerto_dispon
 
 1. ```docker run -p 7000:4173 -d regzam/polimundo-frontend```
 
-2. abrir el navegador y escribir ```localhost:7000```
+2. abrir el navegador y escribir en la barra de direcciones ```localhost:7000```
 
 instrucciones para levantar el proyecto en local:
 
