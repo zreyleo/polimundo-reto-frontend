@@ -1,6 +1,8 @@
 FROM node:latest
 
-WORKDIR /app
-COPY . .
-RUN npm install
-CMD ["npm", "run", "dev"]
+COPY [".", "/usr/src/"]
+WORKDIR /usr/src/
+RUN corepack enable
+RUN yarn install
+EXPOSE 4173
+CMD ["yarn", "serve"]
